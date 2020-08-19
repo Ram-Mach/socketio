@@ -38,7 +38,7 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => console.log('Client disconnected'));
     socket.on('test_emit_method', () =>
     io.emit('test_emit_method', res),
-  //  console.log('test_emit_method test_emit_method')
+console.log('test_emit_method test_emit_method')
      );
 
 
